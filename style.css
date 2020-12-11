@@ -1,7 +1,9 @@
+/*
 * { border: 1px red dotted; }
+*/
 body{
    
-background-image: url("../img/bg-body.png");*/
+background-image: url("./img/bg-body.png");
 padding: 60px 0px 0px 0px;
     z-index:0;
 
@@ -16,7 +18,12 @@ padding: 60px 0px 0px 0px;
     color: #ffc947;
     padding:10px;
 }
-
+.nav-brand,.navbar-brand {
+    color: #ffc947 !important;
+}
+.nav-brand:hover{
+    color: #28a745 !important;
+}
 .nav-link,.navbar-brand {
     color: #ffc947 !important;
 }
@@ -34,3 +41,44 @@ padding: 60px 0px 0px 0px;
 .btn-sign-in{
   background-color: aquamarine;  
 }
+.carousel {
+    background: #241b18;
+    margin: 0px auto;
+    border: 1px solid #ffffff; 
+}
+
+.mycard{
+    margin: 10px auto;
+    border: solid #ffc947;
+    background-color: #ffc947;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    
+  }
+
+.photo {
+    background-color:#ffc947;
+   width: 100%;
+   height:250px;
+   ;
+}
+
+.bodycard {
+
+    background-color: #241b18;
+    color:#ffc947;
+    opacity: 0.95;
+   
+}
+
+.card-title{
+    font-size:20px;
+    color: #ffc947;
+    text-shadow: 1px 1px #28a745
+}
+
+.card-text{
+    color:#ffffff;
+} 
