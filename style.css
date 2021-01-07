@@ -1,11 +1,20 @@
 /*
 * { border: 1px red dotted; }
 */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+
 body{
    
-background-image: url("./img/bg-body3.jpg");
+background-image: url("./img/bg-body.png");
 padding: 60px 0px 0px 0px;
     z-index:0;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
 
 }
 .row-content {
@@ -82,3 +91,102 @@ padding: 60px 0px 0px 0px;
 .card-text{
     color:#ffffff;
 } 
+.font{
+    color: whitesmoke;
+    position:relative;
+}
+h6 {
+	font-family: 'Bree Serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px
+}
+.heading-font, .navbar-default .navbar-brand, .navbar-default .nav li a {
+    font-family: 'Bree Serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    color:white;
+}
+.theme-accent-color{
+    color: #33FF83 !important;
+    }
+.mb50 {
+    margin-bottom: 50px;
+    display: block;
+}
+.mb100 {
+    margin-bottom: 100px;
+}
+section h2.section-heading, .section-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color:whitesmoke;   
+}
+section h3.section-subheading {
+    text-transform: lowercase;
+    font-size: 30px;
+    font-weight: 300;
+    clear: both;
+    display: block;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.secondary-font {
+    font-family: 'Covered By Your Grace', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+.thin-hr {
+    margin: 30px 0 40px;
+    width: 100%;
+    clear: both;
+    display: block;
+    position: relative;
+    border: none;
+}
+h3,p{
+    color:whitesmoke;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+}
+.nav.nav-justified > li > a {
+    position: relative;
+}
+    .icon-tabs .fa-4x {
+          font-size: 46px;
+    }
+    .icon-tabs li .tabtitle {
+        font-size: 32px;
+        letter-spacing: 4px
+    }
+    .dark-wrapper .icon-tabs li {
+        border-right: none;
+    }
+    .nav-justified>li {
+        width: 50%;
+        float: left;
+        word-wrap: break-word;
+     }
+.mb30 {
+    margin-bottom: 30px;
+    display: block;
+    color:whitesmoke;
+}
+#contact-tabs .tabtitle {
+    margin-top: 0;
+}
+.lead {
+  font-size: 18px;
+  line-height: 32px;
+}
